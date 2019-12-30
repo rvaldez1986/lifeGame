@@ -7,11 +7,9 @@ Java program to play [Conway's Game of Life](https://en.wikipedia.org/wiki/Conwa
 
 Entirely built on java, uses a console as graphical interface. Cells survive a stage based on the following rules:
 
-This program contains:
-
 * Any live cell with fewer than two live neighbours dies, as if by underpopulation.
 * Any live cell with two or three live neighbours lives on to the next generation.
 * Any live cell with more than three live neighbours dies, as if by overpopulation.
 * Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
-The program reads the initial stage from a .dat file.
+The program reads the initial stage from a .dat file and plots it using a dot matrix.
